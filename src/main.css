@@ -1,0 +1,31 @@
+.buttons {
+  gap: 1rem;
+}
+
+.container {
+  max-width: 600px;
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.nums {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 24px;
+  border-radius: 100px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
